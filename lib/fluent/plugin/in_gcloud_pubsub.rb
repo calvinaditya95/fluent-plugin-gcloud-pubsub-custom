@@ -9,6 +9,8 @@ require "fluent/plugin/parser"
 require "fluent/plugin/gcloud_pubsub/client"
 require "fluent/plugin/gcloud_pubsub/metrics"
 
+require "prometheus/client"
+
 module Fluent::Plugin
   class GcloudPubSubInput < Input
     Fluent::Plugin.register_input("gcloud_pubsub", self)
