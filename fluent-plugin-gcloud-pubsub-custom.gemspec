@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.license     = "MIT"
   gem.homepage    = "https://github.com/calvinaditya95/fluent-plugin-gcloud-pubsub-custom"
   gem.summary     = "Google Cloud Pub/Sub input/output plugin for Fluentd event collector - with payload compression"
-  gem.version     = "1.3.3"
+  gem.version     = "1.3.4"
   gem.authors     = ["Calvin Aditya"]
   gem.email       = "calvin.aditya95@gmail.com"
   gem.files       = `git ls-files`.split("\n")
