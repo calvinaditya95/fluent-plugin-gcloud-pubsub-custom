@@ -1,6 +1,6 @@
 ## ChangeLog
 
-### Release 1.3.3 - 2021/01/05
+### Release 1.3.4 - 2021/01/05
 
 - Add support for payload compression with `compress_batches`
 
